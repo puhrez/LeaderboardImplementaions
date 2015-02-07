@@ -1,0 +1,21 @@
+Leaderboard
+    new(string id, obj options)
+        set default if options doesn't exist
+            page size
+            host
+            port
+            db
+        returns funtions to:
+           // add callback when connect
+            //rankMember
+          //  clear the board
+           // total members -> zcard
+           // total members in score range
+           // update score
+           // get rank
+            //get score
+            //ismember
+            //ismemberofrange
+            //get memberInfo
+           // get top
+           // get around
