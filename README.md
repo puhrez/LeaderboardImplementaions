@@ -1,6 +1,10 @@
 ##Leaderboard
 This repository will hold my implementation of a Leaderboard Data Access Object (DAO) persisted to Redis and a RESTful API to interact with the Model.
 
+####Completed Implmentations:
+- Node, with testing in Chai/Mocha
+
+
 ####Leaderboard DAO:
 
 ######Options:
