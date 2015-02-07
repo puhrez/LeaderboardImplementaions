@@ -1,0 +1,23 @@
+{
+  "name": "LeaderBoard",
+  "version": "1.0.0",
+  "description": "A RESTful LeaderBoard API presisted via Redis",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dao-test": "coffee -c test/tests.coffee; mocha test/tests.js",
+    "http-test": "jasmine-node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xbs13/node-chai-redis-leaderboard.git"
+  },
+  "author": "Michael Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xbs13/node-chai-redis-leaderboard/issues"
+  },
+  "homepage": "https://github.com/xbs13/node-chai-redis-leaderboard"
+}
